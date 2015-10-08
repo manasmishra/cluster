@@ -1,0 +1,24 @@
+{
+  "name": "Cluster",
+  "version": "0.0.0",
+  "description": "This is an application which demonstrates how to use cluster module for scaling.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node clusterdApp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/manasmishra/cluster"
+  },
+  "keywords": [
+    "cluster",
+    "scaling"
+  ],
+  "author": "manasmishra",
+  "license": "MIT",
+  "dependencies":{
+  	"cluster":"*",
+  	"http":"*",
+  	"os":"*"
+  }
+}
